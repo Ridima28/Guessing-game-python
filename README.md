@@ -1,114 +1,103 @@
-# 🎯 Guess The Number Game
+# 🎯 Guess The Number Game Collection
 
-A simple and fun **Guess The Number** game built using **Python** and **Tkinter**.  
-The player has **10 chances** to guess a randomly generated number between **1 and 50**.
+This repository contains two versions of the classic **Guess The Number** game built using Python:
+
+1. 🖥️ **GUI Version** using Tkinter  
+2. 💻 **Console Version** using basic Python
+
+Both games challenge the player to guess a randomly generated number within limited attempts.
 
 ---
 
-## 📌 Features
+# 🖥️ GUI Version (Tkinter)
 
-- GUI made with Tkinter
+A modern graphical version of the game built using Python's Tkinter library.
+
+## ✨ Features
+
+- 
+- Welcome screen
 - Random number generation
-- 10 attempts to guess the number
-- Hints after every guess:
-  - Too High
-  - Too Low
-- Clean dark-themed interface
-- Input validation for non-numeric entries
-
----
-
-## 🖼️ Preview
-
-- Welcome screen with Start button
-- Main game screen for entering guesses
-- Result messages displayed dynamically
-
----
+- 10 guessing attempts
+- High/Low hints
+- Input validation
+- Interactive buttons and labels
 
 ## 🛠️ Technologies Used
 
 - Python 3
-- Tkinter (built-in Python GUI library)
+- Tkinter
 - Random module
+
+## ▶️ Run GUI Version
+
+```bash
+python game-with-ui.py
+```
 
 ---
 
-## 📂 Project Structure
+# 💻 Console Version
+
+A simple terminal-based version of the game.
+
+## ✨ Features
+
+- Lightweight and beginner-friendly
+- Runs directly in terminal
+- Random number generation
+- Guess feedback system
+- Limited attempts
+
+## ▶️ Run Console Version
+
+```bash
+python game1-no-ui.py
+```
+
+---
+
+# 📂 Project Structure
 
 ```bash
 guess-the-number/
 │
-├── main.py
+├── game-with-ui.py
+├── game1-no-ui.py
 └── README.md
 ```
 
 ---
 
-## ▶️ How to Run
+# 🎮 How to Play
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Ridima28/Guessing-game-python.git
-```
-
-### 2. Open the Project Folder
-
-```bash
-cd guess-the-number
-```
-
-### 3. Run the Game
-
-```bash
-python main.py
-```
+1. Start the game
+2. Guess a number between **1 and 50**
+3. The game will tell you if your guess is:
+   - Too High 📈
+   - Too Low 📉
+4. Guess correctly before your chances run out!
 
 ---
 
-## 🎮 How to Play
+# 🚀 Future Improvements
 
-1. Launch the game
-2. Click the **Start** button
-3. Enter a number between **1 and 50**
-4. Click **Check**
-5. Use the hints to guess the correct number
-6. Win before your 10 chances run out!
-
----
-
-## 📸 Game Logic
-
-- The program generates a random number between **1 and 50**
-- Each wrong guess reduces the remaining chances
-- The game gives hints whether the guess is:
-  - Higher than the target number
-  - Lower than the target number
-- The game ends when:
-  - The player guesses correctly ✅
-  - All chances are used ❌
-
----
-
-## 🚀 Possible Future Improvements
-
-- Add a Restart button
 - Add difficulty levels
-- Add sound effects
-- Display previous guesses
-- Add timer/countdown
-- Convert into multiplayer mode
-- Keep score using a leaderboard
+- Add restart option
+- Store high scores
+- Add timer mode
+- Add multiplayer support
+- Improve GUI animations
 
 ---
 
-## 👨‍💻 Author
 
-Made with Python and Tkinter for practice and learning GUI development.
+# 👨‍💻 Author
+
+Made with Python for learning and practicing programming concepts and GUI development.
 
 ---
 
-## 📜 License
+# 📜 License
 
 This project is open-source and free to use for educational purposes.
